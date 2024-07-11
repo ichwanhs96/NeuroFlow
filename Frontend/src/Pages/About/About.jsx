@@ -1,11 +1,12 @@
 import React from "react";
+import about from "../../asests/about.jfif";
 
 const About = () => {
   return (
     <div className="container">
-      <div>
-        <h2>Model Specifications</h2>
-        <p>
+      <div className="col-7 mx-auto mt-4 text-center ">
+        <h2 className="h2">Model Specifications</h2>
+        <p className="p pt-2">
           This brain tumor detection model is built on a state-of-the-art neural
           network architecture, leverging deep learning techniques to analyze
           complex patterns within medical images. Below are some Training
@@ -13,20 +14,31 @@ const About = () => {
         </p>
       </div>
 
-      <div>
-        <div>10 Epochs</div>
-        <div>96% Accuracy</div>
-        <div>High Precision</div>
-        <div>Br35H Dataset</div>
+      <div className="col-12 d-flex align-items-center justify-content-between mt-5">
+        <div className="boxClr col-2 text-center px-5 py-4 rounded">
+          <span className="clr">05</span> <br /> Epochs
+        </div>
+
+        <div className="boxClr col-2 text-center px-5 py-4 rounded">
+          <span className="clr">99% </span>Accuracy
+        </div>
+        <div className="boxClr col-2 text-center px-5 py-4 rounded">
+          <span className="clr">High </span>Precision
+        </div>
+        <div className="boxClr col-2 text-center px-5 py-4 rounded">
+          <span className="clr">Brats25</span> Dataset
+        </div>
       </div>
 
-      <div>
-        <div>Picture Section</div>
+      <div className="col-12 mt-5 d-flex align-items-center justify-content-end">
+        <div className="col-6">
+          <img className="rounded-top" src={about} alt="about" height={500} />
+        </div>
 
-        <div>
-          <p>Comprehensive</p>
-          <div>
-            <h4>Technical Staff</h4>
+        <div className="col-6">
+          <div className="aboutText">
+            <span>Comprehensive</span>
+            <h4>About This Project</h4>
             <p>
               Leverging OpenCV and PIL for image processing, TensorFlow and
               Keras for machine learning, and NumPy with Pathlib for seamless
@@ -40,17 +52,16 @@ const About = () => {
             </p>
           </div>
 
-          <div>
-            <h4>About This Project</h4>
+          <div className="aboutText pt-3">
+            <h4>Technical Staff </h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
-              excepturi officia provident sunt consequuntur aliquam laudantium
-              amet modi eligendi architecto consequatur vel hic, a reprehenderit
-              exercitationem! Omnis nemo adipisci rem. Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Fugit nemo provident iusto
-              perspiciatis blanditiis architecto ipsam soluta nulla ex
-              cupiditate in est, magni corrupti, tempore voluptas autem rem aut.
-              Autem.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
+              quia voluptate libero facilis officia harum. Dolorem, adipisci
+              illum voluptatum veritatis aliquam placeat nam necessitatibus?
+              Labore error nulla sed non sint iure dicta itaque modi vitae
+              cumque libero saepe magni, fuga reprehenderit, quasi aperiam! Ea,
+              pariatur! Eius ut in ea aliquid ipsam totam, asperiores modi
+              voluptatem animi. Recusandae aperiam quaerat saepe dolore!
             </p>
           </div>
         </div>

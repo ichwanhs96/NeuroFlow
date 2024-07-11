@@ -1,0 +1,31 @@
+.h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.p {
+  color: rgb(0 0 0 / 53%);
+}
+
+.boxClr {
+  background-color: rgb(228 234 239 / 66%);
+  font-weight: 600;
+
+  .clr {
+    font-size: 21px;
+    color: #6666ff;
+  }
+}
+
+.aboutText {
+  span {
+    color: #6666ff;
+    font-weight: 600;
+  }
+  h4 {
+    font-weight: 700;
+  }
+  p {
+    color: rgb(0 0 0 / 53%);
+  }
+}
