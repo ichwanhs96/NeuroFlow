@@ -1,10 +1,10 @@
 import "./App.scss";
-import Model from "./Pages/Model";
+import CustomRoutes from "./Pages/Routes";
 
 const App = () => {
   return (
     <div>
-      <Model />
+      <CustomRoutes />
     </div>
   );
 };
