@@ -1,10 +1,10 @@
 import "./App.scss";
-import About from "./Pages/About";
+import Model from "./Pages/Model";
 
 const App = () => {
   return (
     <div>
-      <About />
+      <Model />
     </div>
   );
 };
