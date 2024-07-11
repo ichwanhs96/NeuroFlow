@@ -1,19 +1,20 @@
 import React from "react";
 import icon from "../asests/icon.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container-fluid">
-        <a
-          class="navbar-brand d-flex align-items-center justify-content-center"
-          href="#"
+    <nav className="navbar navbar-expand-lg ">
+      <div className="container-fluid">
+        <Link
+          to="/"
+          className="navbar-brand d-flex align-items-center justify-content-center"
         >
           <img src={icon} alt="icon" height={20} width={20} />
           NeuralFlow
-        </a>
+        </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -21,28 +22,28 @@ const Header = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li className="nav-item">
+              <Link to="/" className="nav-link" aria-current="page">
                 Home
-              </a>
+              </Link>
             </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="#">
+            <li className="nav-item mx-4">
+              <Link to="/about" className="nav-link">
                 About
-              </a>
+              </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <Link to="/model" className="nav-link">
                 Model
-              </a>
+              </Link>
             </li>
           </ul>
 
-          <button class="btn btn-light" type="submit">
+          <button className="btn btn-light" type="submit">
             Contact
           </button>
         </div>
