@@ -43,8 +43,13 @@ const Header = () => {
             </li>
           </ul>
 
-          <button className="btn btn-light" type="submit">
-            Contact
+          <button className="buton rounded px-2 py-1">
+            <a
+              href="https://www.linkedin.com/in/sikander-nawaz/"
+              target="_blank"
+            >
+              Contact
+            </a>
           </button>
         </div>
       </div>

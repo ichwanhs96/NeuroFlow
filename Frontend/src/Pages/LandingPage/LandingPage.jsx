@@ -1,5 +1,6 @@
 import React from "react";
 import first from "../../asests/first.png";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
@@ -12,6 +13,18 @@ const LandingPage = () => {
             Unseen, Unheard, Undectected: The silent peril of brain tumors
             claims lives daily. Let's raise awareness, save lives.
           </p>
+          <button className="button px-3 py-1 rounded me-3">
+            <Link to="/model">Test Model</Link>
+          </button>
+          <button className="buton px-3 py-1 rounded">
+            <a
+              className="decoration"
+              href="https://github.com/ichwanhs96/NeuroFlow"
+              target="blank"
+            >
+              Get Code
+            </a>
+          </button>
         </div>
       </div>
 
