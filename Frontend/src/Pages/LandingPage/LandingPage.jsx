@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
-    <div className="main d-flex col-12 mt-3 container-fluid px-4">
+    <div className="main d-flex col-lg-12 mt-3 container-fluid px-4">
       <div className="firstCell col-6 d-flex align-items-center">
         <div className="firstCellText col-9">
           <p className="p">Proudly Presenting NeuralFlow</p>
