@@ -11,7 +11,7 @@ const Header = () => {
           className="navbar-brand d-flex align-items-center justify-content-center"
         >
           <img src={icon} alt="icon" height={20} width={20} />
-          NeuralFlow
+          NeuroFlow
         </Link>
         <button
           className="navbar-toggler"

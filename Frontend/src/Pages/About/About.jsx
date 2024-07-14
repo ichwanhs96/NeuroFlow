@@ -16,7 +16,7 @@ const About = () => {
 
       <div className="col-12 d-flex align-items-center justify-content-between mt-5">
         <div className="boxClr col-2 text-center px-5 py-4 rounded">
-          <span className="clr">05</span> <br /> Epochs
+          <span className="clr">Extensively</span> <br /> Trained
         </div>
 
         <div className="boxClr col-2 text-center px-5 py-4 rounded">
@@ -26,7 +26,7 @@ const About = () => {
           <span className="clr">High </span>Precision
         </div>
         <div className="boxClr col-2 text-center px-5 py-4 rounded">
-          <span className="clr">Brats25</span> Dataset
+          <span className="clr">BraTS20</span> Dataset
         </div>
       </div>
 

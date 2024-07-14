@@ -14,7 +14,8 @@ const midSection = () => {
             <div>
               <FaHandHoldingMedical className="icon" />
             </div>
-            Worry about your brain report? Stay calm! Just upload your MIR scan.
+            Worried about a possible brain tumor? Relax! Upload your MRI scan
+            for peace of mind.
           </p>
         </div>
         <div className="cardy col-4 border py-5">
