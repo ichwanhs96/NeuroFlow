@@ -14,7 +14,7 @@ const Model = () => {
         />
       </div>
 
-      <div className="mt-5">
+      <div className="mt-5 pb-4">
         <h4 className="text-center">Result </h4>
         <p className="border">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur
@@ -31,7 +31,7 @@ const Model = () => {
           fuga animi ab provident sequi minus harum non quibusdam mollitia!
         </p>
 
-        <div className="text-end">
+        <div className="text-end ">
           <button type="button" className="button p-2 rounded">
             Download PDF
           </button>

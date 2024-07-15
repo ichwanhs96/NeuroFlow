@@ -7,7 +7,7 @@ const LandingPage = () => {
     <div className="main d-flex col-lg-12 mt-3 container-fluid px-4">
       <div className="firstCell col-6 d-flex align-items-center">
         <div className="firstCellText col-9">
-          <p className="p">Proudly Presenting NeuralFlow</p>
+          <p className="p">Proudly Presenting NeuroFlow</p>
           <h1 className="mb-4">Poineering the Future of Brain Wellness</h1>
           <p>
             Unseen, Unheard, Undectected: The silent peril of brain tumors
