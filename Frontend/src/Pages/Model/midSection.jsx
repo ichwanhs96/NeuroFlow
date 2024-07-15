@@ -1,7 +1,7 @@
 import React from "react";
 import { FaHandHoldingMedical } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
-import { FaFilePdf } from "react-icons/fa";
+import { FaMailBulk } from "react-icons/fa";
 
 const midSection = () => {
   return (
@@ -30,11 +30,11 @@ const midSection = () => {
         </div>
         <div className="cardy col-4 border py-5">
           <div>
-            <FaFilePdf className="icon" />
+            <FaMailBulk className="icon" />
           </div>
 
           <p className="px-4">
-            No need to take screenshot. Download your report in PDF format.
+            No need to take screenshot. Send your report through e-mail.
           </p>
         </div>
       </div>

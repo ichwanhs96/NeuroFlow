@@ -51,19 +51,6 @@ const About = () => {
               patients.
             </p>
           </div>
-
-          <div className="aboutText pt-3">
-            <h4>Technical Staff </h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
-              quia voluptate libero facilis officia harum. Dolorem, adipisci
-              illum voluptatum veritatis aliquam placeat nam necessitatibus?
-              Labore error nulla sed non sint iure dicta itaque modi vitae
-              cumque libero saepe magni, fuga reprehenderit, quasi aperiam! Ea,
-              pariatur! Eius ut in ea aliquid ipsam totam, asperiores modi
-              voluptatem animi. Recusandae aperiam quaerat saepe dolore!
-            </p>
-          </div>
         </div>
       </div>
     </div>
