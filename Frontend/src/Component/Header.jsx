@@ -1,5 +1,5 @@
 import React from "react";
-import icon from "../asests/icon.png";
+import icon from "../asests/icon.svg";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -10,8 +10,7 @@ const Header = () => {
           to="/"
           className="navbar-brand d-flex align-items-center justify-content-center"
         >
-          <img src={icon} alt="icon" height={20} width={20} />
-          NeuroFlow
+          <img src={icon} alt="icon" height={40} width={150} />
         </Link>
         <button
           className="navbar-toggler"
