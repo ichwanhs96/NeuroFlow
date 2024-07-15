@@ -20,8 +20,8 @@ def redirect_landingpage():
 with st.sidebar:
     st.button("back to landing page", on_click=redirect_landingpage())
 
-BASE_API_RUN_URL = "https://7fcb-111-108-27-62.ngrok-free.app/api/v1/run"
-BASE_API_URL = "https://7fcb-111-108-27-62.ngrok-free.app"
+BASE_API_RUN_URL = "http://68.183.231.226:7860/api/v1/run"
+BASE_API_URL = "http://68.183.231.226:7860"
 # FLOW_ID = "6c61fc9a-9089-48dd-b0e8-4c594876c845"
 FLOW_ID_IMAGE_CLASSIFICATION = "765df6e4-ed65-404f-9605-f55a3385f60c"
 ENDPOINT = "neuroflow"

@@ -31,6 +31,7 @@ This repository contains 3 main components
 
 ### Backend
 - LangFlow (https://github.com/ichwanhs96/langflow)
+--- deployed to http://68.183.231.226:7860 (for demo and testing purposes, not for production!)
 
 ## 📝 Challenge / Feedback
 - LangFlow - HuggingFace models component doesn't support image classification. We are challenged to build our own components which written inside `/LangFlow` folder and https://github.com/ichwanhs96/langflow 
