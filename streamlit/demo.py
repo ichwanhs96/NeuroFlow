@@ -18,7 +18,7 @@ def redirect_landingpage():
     webbrowser.open(landingpage_url)
 
 with st.sidebar:
-    st.button("back to landing page", on_click=redirect_landingpage)
+    st.button("back to landing page", on_click=redirect_landingpage())
 
 BASE_API_RUN_URL = "http://127.0.0.1:7860/api/v1/run"
 BASE_API_URL = "http://127.0.0.1:7860"
