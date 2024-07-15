@@ -3,6 +3,7 @@ import requests
 from typing import Optional
 import json
 import warnings
+import webbrowser
 try:
     from utils import upload_file
 except ImportError:
@@ -12,7 +13,12 @@ except ImportError:
 st.set_page_config(page_title="🧠 Neuro Flow")
 st.title('🧠 Neuro Flow')
 
-# openai_api_key = st.sidebar.text_input('OpenAI API Key')
+def redirect_landingpage():
+    landingpage_url = "https://honorable-blood.surge.sh"
+    webbrowser.open(landingpage_url)
+
+with st.sidebar:
+    st.button("back to landing page", on_click=redirect_landingpage)
 
 BASE_API_RUN_URL = "http://127.0.0.1:7860/api/v1/run"
 BASE_API_URL = "http://127.0.0.1:7860"
