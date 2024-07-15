@@ -51,6 +51,32 @@ const About = () => {
               patients.
             </p>
           </div>
+
+          <div className="aboutText mt-5">
+            <h4>Technical Team</h4>
+            <p>
+              <a
+                href="https://lablab.ai/event/langflow-hackathon/ai-the-era"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="clr"
+              >
+                <strong className="clr">"AI THE ERA" </strong>
+              </a>
+              is a dedicated team of six skilled professionals:
+              <strong> Robin Tang</strong>, the Product Designer and Team
+              Leader,
+              <strong> Shumaila Batool</strong>, Machine Learning expert;
+              <strong> Ichwan Sembodo</strong>, an Engineering Manager;
+              <strong> Sikander Nawaz</strong>, a Full Stack Developer;
+              <strong> Muhammad Farhan</strong>, responsible for API control;
+              and <strong> Joe Garfield</strong>, a Generative AI Engineer.
+              Their project leverages the advanced technologies, including
+              JavaScript, Python. Using Machine Learning frameworks like
+              TensorFlow and Keras, alongside image processing tools OpenCV and
+              PIL, they create efficient solutions for medical imaging.
+            </p>
+          </div>
         </div>
       </div>
     </div>

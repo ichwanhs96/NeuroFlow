@@ -10,7 +10,8 @@ const Header = () => {
           to="/"
           className="navbar-brand d-flex align-items-center justify-content-center"
         >
-          <img src={icon} alt="icon" height={40} width={150} />
+          🧠NeuroFlow
+          {/* <img src={icon} alt="icon" height={40} width={150} /> */}
         </Link>
         <button
           className="navbar-toggler"
@@ -36,7 +37,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/model" className="nav-link">
+              <Link to="https://neuroflow.streamlit.app/" className="nav-link">
                 Model
               </Link>
             </li>

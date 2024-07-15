@@ -14,8 +14,9 @@ const LandingPage = () => {
             claims lives daily. Let's raise awareness, save lives.
           </p>
           <button className="button px-3 py-1 rounded me-3">
-            <Link to="/model">Test Model</Link>
+            <Link to="https://neuroflow.streamlit.app/">Test Model</Link>
           </button>
+
           <button className="buton px-3 py-1 rounded">
             <a
               className="decoration"
